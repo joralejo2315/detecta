@@ -3,7 +3,7 @@ import cv2
 # Carga el clasificador de Haar para la detección de rostros
 face_cascade = cv2.CascadeClassifier('detectar/haarcascade_frontalface_default.xml')
 
-
+#esto es ejemplo de cambio
 cap = cv2.VideoCapture(1)
 
 while True:
