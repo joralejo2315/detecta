@@ -2,7 +2,7 @@ import cv2
 import time
 
 # Abre el video
-cap = cv2.VideoCapture("/home/pc/detecta-env/detecta/detecta/video/1.mp4")
+cap = cv2.VideoCapture("video/1.mp4")
 
 # Definir la zona de detección (x, y, width, height)
 detection_zone = (430, 100, 300, 300)  # Cambia estos valores según tu zona de interés
